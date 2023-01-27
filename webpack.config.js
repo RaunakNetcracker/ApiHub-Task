@@ -16,7 +16,7 @@ module.exports = {
     extensions: [".jsx", ".js"],
   },
   devServer: {
-    port: 3030, // you can change the port
+    port: 3010, // you can change the port
   },
   performance: {
     hints: false,

@@ -34,10 +34,10 @@ const Index = () => {
         <Container maxWidth="xl">
           <Box sx={{ height: "90vh", width: "100%" }}>
             <Grid container rowSpacing={0} columnSpacing={0}>
-              {data.map((newData, index) => {
+              {data.map((newData, id) => {
                 return (
-                  <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-                    <Card data={newData} />
+                  <Grid item xs={12} sm={6} md={4} lg={3} key={id}>
+                    <Card data={newData} key={id}/>
                   </Grid>
                 );
               })}
