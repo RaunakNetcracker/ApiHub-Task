@@ -1,0 +1,27 @@
+.main_container {
+  margin: 2vh 1vh;
+  .cardImage {
+    object-fit: contain;
+    img {
+      object-fit: contain;
+    }
+  }
+  .textLine_heading {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+  }
+  .buttonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    button {
+      width: 100%;
+    }
+    a {
+      text-decoration: none;
+      width: 100%;
+    }
+  }
+}

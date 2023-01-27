@@ -1,0 +1,27 @@
+.main_container {
+  margin-top: 3vh;
+  .details {
+    color: rgb(71, 71, 71);
+    font-size: 18px;
+    margin-bottom: 1vh;
+    font-weight: 400;
+    .heading {
+      color: #111;
+      font-weight: 600;
+    }
+  }
+  .cardBig {
+    width: 60%;
+    overflow: hidden;
+    overflow-y: auto;
+    @media screen and (max-width: 640px) {
+      width: 100%;
+    }
+  }
+  .cardBigImage {
+    height: 350px;
+    @media screen and (max-width: 640px) {
+      height: 240px;
+    }
+  }
+}

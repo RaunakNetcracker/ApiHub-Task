@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+}
+.App {
+  .routes {
+    height: 89vh;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+}
+
+.MuiContainer-root {
+  padding: 0vh 2vh !important;
+  margin: 0 !important;
+  margin-top: 0.5vh !important;
+  background-color: transparent !important;
+}
+.MuiCardMedia-root{
+  background-size:  contain !important;
+}
